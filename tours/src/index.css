@@ -252,6 +252,10 @@ ul {
 }
 /* ============= PROJECT CSS =============== */
 
+* {
+  border: 1px solid plum;
+}
+
 main {
   width: 90vw;
   max-width: var(--max-width);
