@@ -266,6 +266,7 @@ main {
   padding: 2rem 0;
   display: grid;
   gap: 2rem;
+  min-height: 676.6px;
 }
 
 .single-tour {
@@ -336,6 +337,7 @@ main {
   .tours {
     grid-template-columns: 1fr 1fr;
     align-items: start;
+
   }
 }
 @media screen and (min-width: 992px) {
