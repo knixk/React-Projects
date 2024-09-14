@@ -266,7 +266,6 @@ main {
   padding: 2rem 0;
   display: grid;
   gap: 2rem;
-  min-height: 676.6px;
 }
 
 .single-tour {
@@ -275,6 +274,7 @@ main {
   box-shadow: var(--shadow-1);
   transition: var(--transition);
   position: relative;
+  min-height: 676.6px;
 }
 
 .single-tour:hover {
@@ -299,6 +299,10 @@ main {
 
 .tour-info {
   padding: 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
 }
 
 .tour-info h5 {
