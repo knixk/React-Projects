@@ -2,7 +2,7 @@ import { links } from '../data';
 
 const Navbar = () => {
   return (
-    <nav className='bg-purple-400 px-8 '>
+    <nav className='bg-purple-400 px-8'>
       <div className='align-element py-4 flex flex-col sm:flex-row sm:gap-x-16 sm:items sm:py-8'>
         <h2 className='text-3xl font-bold'>
           Kanishk's<span className='text-purple-700 px-2'>portfolio</span>
